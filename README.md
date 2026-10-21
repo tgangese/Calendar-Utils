@@ -2,10 +2,9 @@
 
 A tiny Python utility to calculate days in a month and check leap years.
 
+[![Tests](https://github.com/tgangese/Calendar-Utils/actions/workflows/tests.yml/badge.svg)](https://github.com/tgangese/Calendar-Utils/actions)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Tests](https://img.shields.io/badge/tests-passing-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
 ## Features
 - ✅ Leap year detection (handles century rules correctly)
 - ✅ Days in month calculation (February handled correctly)
