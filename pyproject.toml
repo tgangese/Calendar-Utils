@@ -1,0 +1,30 @@
+[project]
+name = "calendar-utils"
+version = "0.1.0"
+description = "A tiny Python utility to calculate days in a month and check leap years"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "【entity-MIT¦canonical_name=MIT】"}
+authors = [
+    {name = "tgangese", email = "tgangese@users.noreply.【entity-github¦canonical_name=GitHub】.com"}
+]
+keywords = ["calendar", "datetime", "leap-year", "utils"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: 【entity-MIT¦canonical_name=MIT】 License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.urls]
+Homepage = "https://github.com/tgangese/Calendar-Utils"
+Repository = "https://github.com/tgangese/Calendar-Utils.git"
+Issues = "https://github.com/tgangese/Calendar-Utils/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["*"]
